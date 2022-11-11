@@ -24,8 +24,9 @@
 
 ### **3. Mtcnn**
 
-> MTCNN은 3개의 neural network(P-Net, R-Net, O-Net)로 이루어져 있습니다. 이때 각 net에서 face classification과 bbox regression, face landmark localization 과정을 진행하면서 동시에 학습시키는 방식(joint learning )을 사용하였습니다. GPU 실험 환경은 Nvidia GTX 1060 3GB에서 실험을 진행하였습니다.
+> MTCNN은 3개의 neural network(P-Net, R-Net, O-Net)로 이루어져 있습니다. 이때 각 net에서 face classification과 bbox regression, face landmark localization 과정을 진행하면서 동시에 학습시키는 방식(joint learning )을 사용하였습니다.
 
+- GPU 실험 환경은 Nvidia GTX 1060 3GB에서 실험을 진행하였습니다.
 - 비교 분석 하고자 하는 모델은 Haar Cascade, Dlib, Mtcnn 을 활용하여 비교 실험을 진행하였습니다.
 - Harr와 Dlib, 두 모델은 머신러닝 기반 모델이고 Mtcnn은 딥러닝 기반 모델로 Mtcnn이 오래 걸리리라 예상히고 실험을 진행하였습니다.
 - 소스코드 내에서 time 모듈을 활용하여 시간을 측정하였습니다.
