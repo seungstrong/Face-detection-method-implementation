@@ -43,6 +43,4 @@ Mtcnn이 제일 정확하다고 예상하였지만 Haar cascade와 Mtcnn은 턱�
 
 
 
-https://user-images.githubusercontent.com/102150812/201462424-d4acd45b-3dd1-4619-93c5-8c167b948e4f.mp4
-
 
